@@ -114,16 +114,16 @@
   /*--------------------------
    collapse
   ---------------------------- */
-  var panel_test = $('.panel-heading a');
+  var panel = $('.panel-heading a');
   panel_test.on('click', function() {
-    panel_test.removeClass('active');
+    panel.removeClass('active');
     $(this).addClass('active');
   });
 
   /*---------------------
    Testimonial carousel
   ---------------------*/
-  var test_carousel = $('.testimonial-carousel');
+  var testCarousel = $('.testimonial-carousel');
   test_carousel.owlCarousel({
     loop: true,
     nav: false,
@@ -212,8 +212,8 @@
   /*---------------------
      Google Maps
   --------------------- */
-  var get_latitude = $('#google-map').data('latitude');
-  var get_longitude = $('#google-map').data('longitude');
+  var getLatitude = $('#google-map').data('latitude');
+  var getLongitude = $('#google-map').data('longitude');
 
   function initialize_google_map() {
     var myLatlng = new google.maps.LatLng(get_latitude, get_longitude);

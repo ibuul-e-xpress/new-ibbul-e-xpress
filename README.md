@@ -1,2 +1,4 @@
 # new-ibbul-e-xpress
-the hyperspace in ibbul
+This is the repo of 2019 BASH hackathon IBB University.
+
+You can fork, download or clone the repository
